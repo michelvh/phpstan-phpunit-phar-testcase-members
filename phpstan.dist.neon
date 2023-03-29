@@ -3,5 +3,5 @@ parameters:
     paths:
         - src
         - tests
-    scanDirectories:
-        - phar://bin/phpunit.phar/
+    bootstrapFiles:
+        - bin/phpunit.phar
